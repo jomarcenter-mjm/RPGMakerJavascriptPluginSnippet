@@ -1,0 +1,162 @@
+{
+    "Initial plugin set": {
+        "prefix": "!rmmvStart",
+        "body": [
+            "/*:",
+            "* @plugindesc ${1:Description}",
+            "* @author",
+            "*",
+            "* @help",
+            "*",
+            "*/"
+        ],
+        "description": "creates the initial set of information and fuctions"
+    },
+    "MVstructContent": {
+        "prefix": "!rmmvStructContent",
+        "body": [
+            "/*~struct~${1:StructName}:",
+            "*",
+            "*/"
+        ],
+        "description": "creates the initial struct"
+    },
+    "MVNote": {
+        "prefix": "@type note",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type note",
+            "* @default"
+        ],
+        "description": "creates a notetag fuction"
+    },
+    "MVparent": {
+        "prefix": "!rmmvParent",
+        "body": [
+            "* @parent ${1:Parent}"
+        ],
+        "description": "create @parent"
+    },
+    "MVcombobox": {
+        "prefix": "@type combo",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type combo",
+            "* @default ",
+            "* @option",
+            "* @option"
+        ],
+        "description": "create a combobox fuction"
+    },
+    "MVboolean": {
+        "prefix": "@type boolean",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type boolean",
+            "* @default true",
+            "* @on yes",
+            "* @off no"
+        ],
+        "description": "creates a boolean fuction"
+    },
+    "MVStruct": {
+        "prefix": "@type struct",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type struct<${2:StructName}>"
+        ],
+        "description": "creates a struct fuction"
+    },
+    "MVText": {
+        "prefix": "@type string",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type string",
+            "* @default "
+        ],
+        "description": "creates a text fuction"
+    },
+    "MVFile": {
+        "prefix": "@type file",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type file",
+            "* @default "
+        ],
+        "description": "creates a generic file fuction"
+    },
+    "MVImage": {
+        "prefix": "@type img",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type file",
+            "* @dir img/",
+            "* @default "
+        ],
+        "description": "creates a image file fuction"
+    },
+    "MVAudio": {
+        "prefix": "@type audio",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type file",
+            "* @dir audio/",
+            "* @default "
+        ],
+        "description": "creates a audio file fuction"
+    },
+    "MVInt": {
+        "prefix": "@type int",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type number",
+            "* @default 1"
+        ],
+        "description": "creates a int fuction"
+    },
+    "MVLimitInt": {
+        "prefix": "@type limitint",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc",
+            "* @type number",
+            "* @max 10",
+            "* @min 1",
+            "* @default 1"
+        ],
+        "description": "creates a limited int fuction"
+    },
+    "MVFloat": {
+        "prefix": "@type float",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type number",
+                "* @decimals 2",
+                "* @default 1.33" 
+        ],
+        "description": "creates a float fuction"
+    },
+    "MVFloatLimit": {
+        "prefix": "@type limitFloat",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type number",
+                "* @max 10",
+                "* @min 1",
+                "* @decimals 2",
+                "* @default 1.33" 
+        ],
+        "description": "creates a Limited float fuction"
+    }
+}
