@@ -190,7 +190,7 @@
         "description": "creates a class object function"
     },
     "MVSkill": {
-        "prefix": "@type class",
+        "prefix": "@type skill",
         "body": [
                 "* @param ${1:Parameters}",
                 "* @desc",
@@ -200,7 +200,7 @@
         "description": "creates a skill object function"
     },
     "MVItem": {
-        "prefix": "@type class",
+        "prefix": "@type item",
         "body": [
                 "* @param ${1:Parameters}",
                 "* @desc",
@@ -210,7 +210,7 @@
         "description": "creates a item object function"
     },
     "MVWeapon": {
-        "prefix": "@type class",
+        "prefix": "@type weapon",
         "body": [
                 "* @param ${1:Parameters}",
                 "* @desc",
@@ -220,7 +220,7 @@
         "description": "creates a weapon object function"
     },
     "MVArmor": {
-        "prefix": "@type class",
+        "prefix": "@type armor",
         "body": [
                 "* @param ${1:Parameters}",
                 "* @desc",
