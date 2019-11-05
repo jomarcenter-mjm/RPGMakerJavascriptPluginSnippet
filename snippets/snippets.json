@@ -158,5 +158,155 @@
                 "* @default 1.33" 
         ],
         "description": "creates a Limited float fuction"
+    },
+    "MVAnimation": {
+        "prefix": "@type animation",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type animation",
+                "* @default 1" 
+        ],
+        "description": "creates a animation object function"
+    },
+    "MVActor": {
+        "prefix": "@type actor",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type actor",
+                "* @default 1" 
+        ],
+        "description": "creates a actor object function"
+    },
+    "MVClass": {
+        "prefix": "@type class",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type class",
+                "* @default 1" 
+        ],
+        "description": "creates a class object function"
+    },
+    "MVSkill": {
+        "prefix": "@type class",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type skill",
+                "* @default 1" 
+        ],
+        "description": "creates a skill object function"
+    },
+    "MVItem": {
+        "prefix": "@type class",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type item",
+                "* @default 1" 
+        ],
+        "description": "creates a item object function"
+    },
+    "MVWeapon": {
+        "prefix": "@type class",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type weapon",
+                "* @default 1" 
+        ],
+        "description": "creates a weapon object function"
+    },
+    "MVArmor": {
+        "prefix": "@type class",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type weapon",
+                "* @default 1" 
+        ],
+        "description": "creates a weapon object function"
+    },
+    "MVEnemy": {
+        "prefix": "@type enemy",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type enemy",
+                "* @default 1" 
+        ],
+        "description": "creates a enemy object function"
+    },
+    "MVTroop": {
+        "prefix": "@type troop",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type troop",
+                "* @default 1" 
+        ],
+        "description": "creates a troop object function"
+    },
+    "MVState": {
+        "prefix": "@type state",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type state",
+                "* @default 1" 
+        ],
+        "description": "creates a state object function"
+    },
+    "MVVariableObject": {
+        "prefix": "@type variable",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type variable",
+                "* @default 1" 
+        ],
+        "description": "creates a variable object function"
+    },
+    "MVStringList": {
+        "prefix": "@type ListsString",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type string[]",
+                "* @default []" 
+        ],
+        "description": "creates a string list function"
+    },
+    "MVFileList": {
+        "prefix": "@type ListsFile",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type file[]",
+                "* @default []" 
+        ],
+        "description": "creates a file list function"
+    },
+    "MVVariableList": {
+        "prefix": "@type ListsVariable",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type variable[]",
+                "* @default []" 
+        ],
+        "description": "creates a variable list function"
+    },
+    "MVStructList": {
+        "prefix": "@type ListsStruct",
+        "body": [
+                "* @param ${1:Parameters}",
+                "* @desc",
+                "* @type struct<${2:StructName}>[]",
+                "* @default []" 
+        ],
+        "description": "creates a struct list function"
     }
 }
