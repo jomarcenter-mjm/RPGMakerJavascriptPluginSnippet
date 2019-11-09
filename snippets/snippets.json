@@ -308,5 +308,15 @@
                 "* @default []" 
         ],
         "description": "creates a struct list function"
+    },
+    "MVBlankParameters": {
+        "prefix": "@type",
+        "body": [
+            "* @param ${1:Parameters}",
+            "* @desc ${2:Description}",
+            "* @type ${3:Type}",
+            "* @default ${4:Default}"
+        ],
+        "description": "creates a blank fuction"
     }
 }
