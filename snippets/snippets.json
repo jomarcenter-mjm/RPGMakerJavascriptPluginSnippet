@@ -67,7 +67,7 @@
         "body": [
             "* @param ${1:Parameters}",
             "* @desc ${2:Description}",
-            "* @type struct<${2:StructName}>"
+            "* @type struct<${3:StructName}>"
         ],
         "description": "creates a struct fuction"
     },
@@ -304,7 +304,7 @@
         "body": [
                 "* @param ${1:Parameters}",
                 "* @desc ${2:Description}",
-                "* @type struct<${2:StructName}>[]",
+                "* @type struct<${3:StructName}>[]",
                 "* @default []" 
         ],
         "description": "creates a struct list function"
