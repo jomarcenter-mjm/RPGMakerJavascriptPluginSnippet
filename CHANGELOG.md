@@ -1,6 +1,11 @@
 # Change Log
 
 All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
+## [1.2.2]
+- bug fixes
+
+## [1.2.0]
+- change of name
 
 ## [1.1.0]
 - Added blank type
