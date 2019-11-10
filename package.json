@@ -2,11 +2,11 @@
     "name": "rmmvpluginsnippet",
     "displayName": "RPGMaker MV Plugin Snippet",
     "description": "Make Coding RPG Maker MV Plugin simplier",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "MJMCreativeWorksAndIdea",
-    "repository":{
-        "type" : "git",
-        "url" : "https://github.com/jomarcenter-mjm/RPGMakerMVPluginSnippet"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jomarcenter-mjm/RPGMakerMVPluginSnippet"
     },
     "icon": "icon.png",
     "engines": {
