@@ -12,6 +12,16 @@
         ],
         "description": "creates the initial set of information and fuctions"
     },
+    "Code Block Comment": {
+        "prefix": "!rmmvComment",
+        "body": [
+            "//-----------------------------------------------------------------------------",
+            "// ${1:Name}",
+            "//",
+            "// ${2:Description}"
+        ],
+        "description": "creates a comment block to make code cleaner and easier to find"
+    },
     "MVstructContent": {
         "prefix": "!rmmvStructContent",
         "body": [
