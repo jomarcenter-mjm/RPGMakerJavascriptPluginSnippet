@@ -234,10 +234,10 @@
         "body": [
                 "* @param ${1:Parameters}",
                 "* @desc ${2:Description}",
-                "* @type weapon",
+                "* @type armor",
                 "* @default 1" 
         ],
-        "description": "creates a weapon object function"
+        "description": "creates a armor object function"
     },
     "MVEnemy": {
         "prefix": "@type enemy",
