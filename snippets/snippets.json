@@ -2,330 +2,331 @@
     "Initial plugin set": {
         "prefix": "!rmmvStart",
         "body": [
-            "/*:",
-            "* @plugindesc ${1:Description}",
-            "* @author ${2:Author}",
-            "*",
-            "* @help",
-            "*",
-            "*/"
+            "$BLOCK_COMMENT_START:",
+            " * @plugindesc ${1:Description}",
+            " * @author ${2:Author}",
+            " * ",
+            " * @help",
+            " * ",
+            " $BLOCK_COMMENT_END"
         ],
         "description": "creates the initial set of information and fuctions"
     },
     "Code Block Comment": {
         "prefix": "!rmmvComment",
         "body": [
-            "//-----------------------------------------------------------------------------",
-            "// ${1:Name}",
-            "//",
-            "// ${2:Description}"
+            "$LINE_COMMENT-----------------------------------------------------------------------------",
+            "$LINE_COMMENT ${1:Name}",
+            "$LINE_COMMENT",
+            "$LINE_COMMENT ${2:Description}"
         ],
         "description": "creates a comment block to make code cleaner and easier to find"
     },
     "MVstructContent": {
         "prefix": "!rmmvStructContent",
         "body": [
-            "/*~struct~${1:StructName}:",
-            "*",
-            "*/"
+            "$BLOCK_COMMENT_START:~struct~${1:StructName}:",
+            " * ",
+            " * ",
+            " $BLOCK_COMMENT_END"
         ],
         "description": "creates the initial struct"
     },
     "MVNote": {
         "prefix": "@type note",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type note",
-            "* @default ${3:Default}"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type note",
+            " * @default ${3:Default}"
         ],
         "description": "creates a notetag fuction"
     },
     "MVparent": {
         "prefix": "!rmmvParent",
         "body": [
-            "* @parent ${1:Parent}"
+            " * @parent ${1:Parent}"
         ],
         "description": "create @parent"
     },
     "MVcombobox": {
         "prefix": "@type combo",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type combo",
-            "* @default ${3:Default}",
-            "* @option",
-            "* @option"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type combo",
+            " * @default ${3:Default}",
+            " * @option",
+            " * @option"
         ],
         "description": "create a combobox fuction"
     },
     "MVboolean": {
         "prefix": "@type boolean",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type boolean",
-            "* @default true",
-            "* @on yes",
-            "* @off no"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type boolean",
+            " * @default true",
+            " * @on yes",
+            " * @off no"
         ],
         "description": "creates a boolean fuction"
     },
     "MVStruct": {
         "prefix": "@type struct",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type struct<${3:StructName}>"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type struct<${3:StructName}>"
         ],
         "description": "creates a struct fuction"
     },
     "MVText": {
         "prefix": "@type string",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type string",
-            "* @default ${3:Default}"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type string",
+            " * @default ${3:Default}"
         ],
         "description": "creates a text fuction"
     },
     "MVFile": {
         "prefix": "@type file",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type file",
-            "* @default ${3:Default}"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type file",
+            " * @default ${3:Default}"
         ],
         "description": "creates a generic file fuction"
     },
     "MVImage": {
         "prefix": "@type img",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type file",
-            "* @dir img/",
-            "* @default ${3:Default}"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type file",
+            " * @dir img/",
+            " * @default ${3:Default}"
         ],
         "description": "creates a image file fuction"
     },
     "MVAudio": {
         "prefix": "@type audio",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type file",
-            "* @dir audio/",
-            "* @default ${3:Default}"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type file",
+            " * @dir audio/",
+            " * @default ${3:Default}"
         ],
         "description": "creates a audio file fuction"
     },
     "MVInt": {
         "prefix": "@type int",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type number",
-            "* @default 1"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type number",
+            " * @default 1"
         ],
         "description": "creates a int fuction"
     },
     "MVLimitInt": {
         "prefix": "@type limitint",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type number",
-            "* @max 10",
-            "* @min 1",
-            "* @default 1"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type number",
+            " * @max 10",
+            " * @min 1",
+            " * @default 1"
         ],
         "description": "creates a limited int fuction"
     },
     "MVFloat": {
         "prefix": "@type float",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type number",
-                "* @decimals 2",
-                "* @default 1.33" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type number",
+                " * @decimals 2",
+                " * @default 1.33" 
         ],
         "description": "creates a float fuction"
     },
     "MVFloatLimit": {
         "prefix": "@type limitFloat",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type number",
-                "* @max 10",
-                "* @min 1",
-                "* @decimals 2",
-                "* @default 1.33" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type number",
+                " * @max 10",
+                " * @min 1",
+                " * @decimals 2",
+                " * @default 1.33" 
         ],
         "description": "creates a Limited float fuction"
     },
     "MVAnimation": {
         "prefix": "@type animation",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type animation",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type animation",
+                " * @default 1" 
         ],
         "description": "creates a animation object function"
     },
     "MVActor": {
         "prefix": "@type actor",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type actor",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type actor",
+                " * @default 1" 
         ],
         "description": "creates a actor object function"
     },
     "MVClass": {
         "prefix": "@type class",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type class",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type class",
+                " * @default 1" 
         ],
         "description": "creates a class object function"
     },
     "MVSkill": {
         "prefix": "@type skill",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type skill",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type skill",
+                " * @default 1" 
         ],
         "description": "creates a skill object function"
     },
     "MVItem": {
         "prefix": "@type item",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type item",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type item",
+                " * @default 1" 
         ],
         "description": "creates a item object function"
     },
     "MVWeapon": {
         "prefix": "@type weapon",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type weapon",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type weapon",
+                " * @default 1" 
         ],
         "description": "creates a weapon object function"
     },
     "MVArmor": {
         "prefix": "@type armor",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type armor",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type armor",
+                " * @default 1" 
         ],
         "description": "creates a armor object function"
     },
     "MVEnemy": {
         "prefix": "@type enemy",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type enemy",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type enemy",
+                " * @default 1" 
         ],
         "description": "creates a enemy object function"
     },
     "MVTroop": {
         "prefix": "@type troop",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type troop",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type troop",
+                " * @default 1" 
         ],
         "description": "creates a troop object function"
     },
     "MVState": {
         "prefix": "@type state",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type state",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type state",
+                " * @default 1" 
         ],
         "description": "creates a state object function"
     },
     "MVVariableObject": {
         "prefix": "@type variable",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type variable",
-                "* @default 1" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type variable",
+                " * @default 1" 
         ],
         "description": "creates a variable object function"
     },
     "MVStringList": {
         "prefix": "@type ListsString",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type string[]",
-                "* @default []" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type string[]",
+                " * @default []" 
         ],
         "description": "creates a string list function"
     },
     "MVFileList": {
         "prefix": "@type ListsFile",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type file[]",
-                "* @default []" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type file[]",
+                " * @default []" 
         ],
         "description": "creates a file list function"
     },
     "MVVariableList": {
         "prefix": "@type ListsVariable",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type variable[]",
-                "* @default []" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type variable[]",
+                " * @default []" 
         ],
         "description": "creates a variable list function"
     },
     "MVStructList": {
         "prefix": "@type ListsStruct",
         "body": [
-                "* @param ${1:Parameters}",
-                "* @desc ${2:Description}",
-                "* @type struct<${3:StructName}>[]",
-                "* @default []" 
+                " * @param ${1:Parameters}",
+                " * @desc ${2:Description}",
+                " * @type struct<${3:StructName}>[]",
+                " * @default []" 
         ],
         "description": "creates a struct list function"
     },
     "MVBlankParameters": {
         "prefix": "@type",
         "body": [
-            "* @param ${1:Parameters}",
-            "* @desc ${2:Description}",
-            "* @type ${3:Type}",
-            "* @default ${4:Default}"
+            " * @param ${1:Parameters}",
+            " * @desc ${2:Description}",
+            " * @type ${3:Type}",
+            " * @default ${4:Default}"
         ],
         "description": "creates a blank fuction"
     }
