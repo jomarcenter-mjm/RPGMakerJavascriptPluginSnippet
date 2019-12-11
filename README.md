@@ -14,6 +14,12 @@ Contains all or most of the necessary plugin snippet for easier plugin productio
 
 No Know Issues been found
 
+## Like my work
+Support me on Ko-Fi
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J61540Q)
+
+
+
 ## License
 
 Copyright 2019 MJM Creative Works and Ideas
@@ -27,7 +33,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## thanks
 Special thanks to Yeechan Lu (orzFly) for making the list of parameters from the Plugin editor demo in the past, without it the snippets might be incomplete or I have no idea what I am doing.
 The RPG Maker Community as a whole for helping out in the developement of this extension
-
-##Like my work
-Support me on Ko-Fi
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J61540Q)
