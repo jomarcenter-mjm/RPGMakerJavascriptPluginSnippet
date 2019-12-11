@@ -16,7 +16,7 @@ No Know Issues been found
 
 ## Like my work
 Support me on Ko-Fi
-[![ko-fi](https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2)](https://ko-fi.com/J3J61540Q)
+[![ko-fi](https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2 =157x40)](https://ko-fi.com/J3J61540Q)
 
 
 
