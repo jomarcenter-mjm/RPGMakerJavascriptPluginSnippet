@@ -2,39 +2,40 @@
     "Initial plugin set": {
         "prefix": "!rmmvStart",
         "body": [
-            "/*:",
-            "* @plugindesc ${1:Description}",
-            "* @author ${2:Author}",
-            "*",
-            "* @help",
-            "*",
-            "*/"
+            "$BLOCK_COMMENT_START:",
+            " * @plugindesc ${1:Description}",
+            " * @author ${2:Author}",
+            " * ",
+            " * @help",
+            " * ",
+            " $BLOCK_COMMENT_END"
         ],
         "description": "creates the initial set of information and fuctions"
     },
     "Code Block Comment": {
         "prefix": "!rmmvComment",
         "body": [
-            "//-----------------------------------------------------------------------------",
-            "// ${1:Name}",
-            "//",
-            "// ${2:Description}"
+            "$LINE_COMMENT-----------------------------------------------------------------------------",
+            "$LINE_COMMENT ${1:Name}",
+            "$LINE_COMMENT",
+            "$LINE_COMMENT ${2:Description}"
         ],
         "description": "creates a comment block to make code cleaner and easier to find"
     },
     "MVstructContent": {
         "prefix": "!rmmvStructContent",
         "body": [
-            "/*~struct~${1:StructName}:",
-            "*",
-            "*/"
+            "$BLOCK_COMMENT_START:~struct~${1:StructName}:",
+            " * ",
+            " * ",
+            " $BLOCK_COMMENT_END"
         ],
         "description": "creates the initial struct"
     },
     "MVNote": {
         "prefix": "@type note",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type note",
             "* @default ${3:Default}"
@@ -51,7 +52,7 @@
     "MVcombobox": {
         "prefix": "@type combo",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type combo",
             "* @default ${3:Default}",
@@ -63,7 +64,7 @@
     "MVboolean": {
         "prefix": "@type boolean",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type boolean",
             "* @default true",
@@ -75,7 +76,7 @@
     "MVStruct": {
         "prefix": "@type struct",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type struct<${3:StructName}>"
         ],
@@ -84,7 +85,7 @@
     "MVText": {
         "prefix": "@type string",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type string",
             "* @default ${3:Default}"
@@ -94,7 +95,7 @@
     "MVFile": {
         "prefix": "@type file",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type file",
             "* @default ${3:Default}"
@@ -104,7 +105,7 @@
     "MVImage": {
         "prefix": "@type img",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type file",
             "* @dir img/",
@@ -115,7 +116,7 @@
     "MVAudio": {
         "prefix": "@type audio",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type file",
             "* @dir audio/",
@@ -126,7 +127,7 @@
     "MVInt": {
         "prefix": "@type int",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type number",
             "* @default 1"
@@ -136,7 +137,7 @@
     "MVLimitInt": {
         "prefix": "@type limitint",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type number",
             "* @max 10",
@@ -148,7 +149,7 @@
     "MVFloat": {
         "prefix": "@type float",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type number",
                 "* @decimals 2",
@@ -159,7 +160,7 @@
     "MVFloatLimit": {
         "prefix": "@type limitFloat",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type number",
                 "* @max 10",
@@ -172,7 +173,7 @@
     "MVAnimation": {
         "prefix": "@type animation",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type animation",
                 "* @default 1" 
@@ -182,7 +183,7 @@
     "MVActor": {
         "prefix": "@type actor",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type actor",
                 "* @default 1" 
@@ -192,7 +193,7 @@
     "MVClass": {
         "prefix": "@type class",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type class",
                 "* @default 1" 
@@ -202,7 +203,7 @@
     "MVSkill": {
         "prefix": "@type skill",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type skill",
                 "* @default 1" 
@@ -212,7 +213,7 @@
     "MVItem": {
         "prefix": "@type item",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type item",
                 "* @default 1" 
@@ -222,7 +223,7 @@
     "MVWeapon": {
         "prefix": "@type weapon",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type weapon",
                 "* @default 1" 
@@ -232,7 +233,7 @@
     "MVArmor": {
         "prefix": "@type armor",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type armor",
                 "* @default 1" 
@@ -242,7 +243,7 @@
     "MVEnemy": {
         "prefix": "@type enemy",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type enemy",
                 "* @default 1" 
@@ -252,7 +253,7 @@
     "MVTroop": {
         "prefix": "@type troop",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type troop",
                 "* @default 1" 
@@ -262,7 +263,7 @@
     "MVState": {
         "prefix": "@type state",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type state",
                 "* @default 1" 
@@ -272,7 +273,7 @@
     "MVVariableObject": {
         "prefix": "@type variable",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type variable",
                 "* @default 1" 
@@ -282,7 +283,7 @@
     "MVStringList": {
         "prefix": "@type ListsString",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type string[]",
                 "* @default []" 
@@ -292,7 +293,7 @@
     "MVFileList": {
         "prefix": "@type ListsFile",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type file[]",
                 "* @default []" 
@@ -302,7 +303,7 @@
     "MVVariableList": {
         "prefix": "@type ListsVariable",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type variable[]",
                 "* @default []" 
@@ -312,7 +313,7 @@
     "MVStructList": {
         "prefix": "@type ListsStruct",
         "body": [
-                "* @param ${1:Parameters}",
+                "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
                 "* @type struct<${3:StructName}>[]",
                 "* @default []" 
@@ -322,7 +323,7 @@
     "MVBlankParameters": {
         "prefix": "@type",
         "body": [
-            "* @param ${1:Parameters}",
+            "@param ${1:Parameters}",
             "* @desc ${2:Description}",
             "* @type ${3:Type}",
             "* @default ${4:Default}"
