@@ -1,6 +1,8 @@
 # Change Log
 
 All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
+## [1.3.1]
+- added PluginManager.parameters to the list
 ## [1.3.0]
 - Major changes to the snippets
  - Now Follows VSCode snippets functionality
