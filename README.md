@@ -10,6 +10,9 @@ you may contact me at jomarlive@gmail.com
 
 Contains all or most of the necessary plugin snippet for easier plugin production
 
+## All avalable types
+![All type Example](img/RMMVtypelist.gif)
+
 ## Known Issues
 
 No Know Issues been found
@@ -20,7 +23,23 @@ Support me on Ko-Fi
 <a href="https://ko-fi.com/J3J61540Q"><img src="https://az743702.vo.msecnd.net/cdn/kofi3.png" width="130" ></a>
 
 ## Usage
+
 ![use example](img/usage.gif)
+
+### !RMMVStart
+![RMMVStart Example](img/RMMVStart.gif)
+
+### !RMMVStruct
+![RMMVStruct Example](img/RMMVStruct.gif)
+
+### !RMMVComment
+![RMMVComment Example](img/RMMVComment.gif)
+
+### @Type
+![@type Example](img/Type%20Sample.gif)
+
+### other samples
+![other Example](img/Plugin%20Manager%20Parameter.gif)
 
 ## License
 

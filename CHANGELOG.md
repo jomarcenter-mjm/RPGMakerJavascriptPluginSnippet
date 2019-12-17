@@ -1,6 +1,9 @@
 # Change Log
 
 All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
+
+## [1.4.1]
+- Added Sample images to readme.md (thanks to trapless for the suggestion)
 ## [1.4.0]
 - added MVselectbox
 - added MVoptionandvalue
