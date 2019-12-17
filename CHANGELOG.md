@@ -1,6 +1,11 @@
 # Change Log
 
 All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
+## [1.4.0]
+- added MVselectbox
+- added MVoptionandvalue
+- added MVJSNewFunction
+now you can type .prototype and it will full all the needed stuff to make a new function
 ## [1.3.1]
 - added PluginManager.parameters to the list
 ## [1.3.0]

@@ -56,6 +56,28 @@
         ],
         "description": "create @parent"
     },
+    "MVselectbox": {
+        "prefix": "@type select",
+        "body": [
+            "@param ${1:Parameters}",
+            "* @desc ${2:Description}",
+            "* @type select",
+            "* @default ${3:Default}",
+            "* @option",
+            "* @value",
+            "* @option",
+            "* @value"
+        ],
+        "description": "create a select fuction"
+    },
+    "MVoptionandvalue": {
+        "prefix": "@value",
+        "body": [
+            " @option",
+            "* @value"
+        ],
+        "description": "create a option with value fuction"
+    },
     "MVcombobox": {
         "prefix": "@type combo",
         "body": [
@@ -336,5 +358,14 @@
             "* @default ${4:Default}"
         ],
         "description": "creates a blank fuction"
+    },
+    "MVJSNewPrototypeFunction": {
+        "prefix": ".prototype",
+        "body": [
+            "${1:scene_new}.prototype.${2:parameter} = function() = {",
+            " ",
+            "}"
+        ],
+        "description": "creates a new function"
     }
 }
