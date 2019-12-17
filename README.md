@@ -19,7 +19,8 @@ Support me on Ko-Fi
 
 <a href="https://ko-fi.com/J3J61540Q"><img src="https://az743702.vo.msecnd.net/cdn/kofi3.png" width="130" ></a>
 
-
+## Usage
+![use example](img/usage.gif)
 
 ## License
 
