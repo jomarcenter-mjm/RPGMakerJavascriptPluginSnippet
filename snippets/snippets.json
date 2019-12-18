@@ -360,9 +360,9 @@
         "description": "creates a blank fuction"
     },
     "MVJSNewPrototypeFunction": {
-        "prefix": ".prototype",
+        "prefix": "prototype",
         "body": [
-            "${1:scene_new}.prototype.${2:parameter} = function() = {",
+            "prototype.${2:parameter} = function() = {",
             " ",
             "}"
         ],
