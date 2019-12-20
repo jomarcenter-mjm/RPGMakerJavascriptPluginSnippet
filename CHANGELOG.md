@@ -2,6 +2,11 @@
 
 All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
 
+## [1.4.3]
+- Change !MVParent to @parent
+- Change @type string to @type text
+- Minor Grammar fixes
+
 ## [1.4.2]
 - report #6 fix
 

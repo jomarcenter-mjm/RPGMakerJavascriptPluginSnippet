@@ -23,7 +23,7 @@ this is the list of parameters you can use in MV Plugin
 
 ### Text
 @type note - This create a note parameters
-@type string - This create the text parameters
+@type text - This create the text parameters
 
 ### Files
 @type file - This creates a generic file parameters
@@ -50,7 +50,8 @@ this is the list of parameters you can use in MV Plugin
 @type ListsString - create a "string[]" parameters
 @type ListFile - create a "file[]" parameters
 @type ListString - create a "string[]" parameters
-@type ListsStruct - create a "Struct<struct>[]"parameters
+@type ListsText - create a "Struct<struct>[]"parameters
 
 ### Misc
-!rmmvParent - This create "@parent" parameters, why it is separate, well you tell me
+@parent - This create "@parent" parameters, why it is separate, well you tell me
+@text - creates a "@text" parameter, why it is separate, well you tell me
