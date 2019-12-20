@@ -10,7 +10,7 @@
             " * ",
             " $BLOCK_COMMENT_END"
         ],
-        "description": "creates the initial set of information and fuctions"
+        "description": "creates the initial set of information and functions"
     },
     "Code Block Comment": {
         "prefix": "!rmmvComment",
@@ -47,7 +47,7 @@
             "* @type note",
             "* @default ${3:Default}"
         ],
-        "description": "creates a notetag fuction"
+        "description": "creates a multi-line string function"
     },
     "MVparent": {
         "prefix": "!rmmvParent",
@@ -68,7 +68,7 @@
             "* @option",
             "* @value"
         ],
-        "description": "create a select fuction"
+        "description": "create a select function"
     },
     "MVoptionandvalue": {
         "prefix": "@value",
@@ -76,7 +76,7 @@
             " @option",
             "* @value"
         ],
-        "description": "create a option with value fuction"
+        "description": "create a option with value function"
     },
     "MVcombobox": {
         "prefix": "@type combo",
@@ -88,7 +88,7 @@
             "* @option",
             "* @option"
         ],
-        "description": "create a combobox fuction"
+        "description": "create a combobox function"
     },
     "MVboolean": {
         "prefix": "@type boolean",
@@ -100,7 +100,7 @@
             "* @on yes",
             "* @off no"
         ],
-        "description": "creates a boolean fuction"
+        "description": "creates a boolean function"
     },
     "MVStruct": {
         "prefix": "@type struct",
@@ -109,17 +109,17 @@
             "* @desc ${2:Description}",
             "* @type struct<${3:StructName}>"
         ],
-        "description": "creates a struct fuction"
+        "description": "creates a struct function"
     },
     "MVText": {
-        "prefix": "@type string",
+        "prefix": "@type text",
         "body": [
             "@param ${1:Parameters}",
             "* @desc ${2:Description}",
-            "* @type string",
+            "* @type text",
             "* @default ${3:Default}"
         ],
-        "description": "creates a text fuction"
+        "description": "creates a text function"
     },
     "MVFile": {
         "prefix": "@type file",
@@ -129,7 +129,7 @@
             "* @type file",
             "* @default ${3:Default}"
         ],
-        "description": "creates a generic file fuction"
+        "description": "creates a generic file function"
     },
     "MVImage": {
         "prefix": "@type img",
@@ -140,7 +140,7 @@
             "* @dir img/",
             "* @default ${3:Default}"
         ],
-        "description": "creates a image file fuction"
+        "description": "creates a image file function"
     },
     "MVAudio": {
         "prefix": "@type audio",
@@ -151,7 +151,7 @@
             "* @dir audio/",
             "* @default ${3:Default}"
         ],
-        "description": "creates a audio file fuction"
+        "description": "creates a audio file function"
     },
     "MVInt": {
         "prefix": "@type int",
@@ -161,7 +161,7 @@
             "* @type number",
             "* @default 1"
         ],
-        "description": "creates a int fuction"
+        "description": "creates a int function"
     },
     "MVLimitInt": {
         "prefix": "@type limitint",
@@ -173,7 +173,7 @@
             "* @min 1",
             "* @default 1"
         ],
-        "description": "creates a limited int fuction"
+        "description": "creates a limited int function"
     },
     "MVFloat": {
         "prefix": "@type float",
@@ -184,7 +184,7 @@
                 "* @decimals 2",
                 "* @default 1.33" 
         ],
-        "description": "creates a float fuction"
+        "description": "creates a float function"
     },
     "MVFloatLimit": {
         "prefix": "@type limitFloat",
@@ -197,7 +197,7 @@
                 "* @decimals 2",
                 "* @default 1.33" 
         ],
-        "description": "creates a Limited float fuction"
+        "description": "creates a Limited float function"
     },
     "MVAnimation": {
         "prefix": "@type animation",
@@ -309,12 +309,12 @@
         ],
         "description": "creates a variable object function"
     },
-    "MVStringList": {
-        "prefix": "@type ListsString",
+    "MVTextList": {
+        "prefix": "@type ListsText",
         "body": [
                 "@param ${1:Parameters}",
                 "* @desc ${2:Description}",
-                "* @type string[]",
+                "* @type text[]",
                 "* @default []" 
         ],
         "description": "creates a string list function"
