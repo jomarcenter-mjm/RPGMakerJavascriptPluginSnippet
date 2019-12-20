@@ -50,18 +50,11 @@
         "description": "creates a multi-line string function"
     },
     "MVparent": {
-        "prefix": "@Parent",
+        "prefix": "!rmmvParent",
         "body": [
             "* @parent ${1:Parent}"
         ],
         "description": "create @parent"
-    },
-    "MVParamText": {
-        "prefix": "@text",
-        "body": [
-            "* @text ${1:Text}"
-        ],
-        "description": "create @text"
     },
     "MVselectbox": {
         "prefix": "@type select",
