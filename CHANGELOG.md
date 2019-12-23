@@ -2,6 +2,11 @@
 
 All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
 
+## [1.4.4]
+- Temporary removing broken snippets
+ - plugin.parameter
+ - prototype.X
+
 ## [1.4.3]
 - Change !MVParent to @parent
 - Change @type string to @type text

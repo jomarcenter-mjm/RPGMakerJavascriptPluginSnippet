@@ -22,13 +22,6 @@
         ],
         "description": "creates a comment block to make code cleaner and easier to find"
     },
-    "Plugin Manager Parameter": {
-        "prefix": "PluginManager.parameters('')",
-        "body": [
-            "PluginManager.parameters('${1:Name}')"
-        ],
-        "description": "creates a PluginManager.parameters code"
-    },
     "MVstructContent": {
         "prefix": "!rmmvStructContent",
         "body": [
@@ -365,14 +358,5 @@
             "* @default ${4:Default}"
         ],
         "description": "creates a blank fuction"
-    },
-    "MVJSNewPrototypeFunction": {
-        "prefix": "prototype",
-        "body": [
-            "prototype.${2:parameter} = function() = {",
-            " ",
-            "}"
-        ],
-        "description": "creates a new function"
     }
 }
