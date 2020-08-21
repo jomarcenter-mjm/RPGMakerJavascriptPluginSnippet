@@ -12,6 +12,13 @@
         ],
         "description": "creates the initial set of information and functions"
     },
+    "Include MZ": {
+        "prefix" : "@target",
+        "body" : [
+            "* @target"
+        ],
+        "description": "[MZ ONLY]creates target for pointing out MV or MZ "
+    },
     "Code Block Comment": {
         "prefix": "!rmmvComment",
         "body": [

@@ -1,6 +1,10 @@
 # Change Log
 
-All notable changes to the "rmmvpluginsnippet" extension will be documented in this file.
+All notable changes to the "rmjspluginsnippet" extension will be documented in this file.
+## [2.0.0]
+- upgrade to 2.0.0 version in line with the RPG maker MZ release
+ - now renamed to RPGMaker Javascript plugin snippet
+- added @target for MZ plugin Developement
 
 ## [1.4.4]
 - Temporary removing broken snippets

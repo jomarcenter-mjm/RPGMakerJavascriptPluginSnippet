@@ -5,6 +5,7 @@ All snippet always start with "!rmmv" and @type
 ## Content
 
 This list all the content so you can easily start making the plugin
+
 ### Initial set
 !rmmvStart - This create the body of the plugin
 !rmmvStructContent - This create the initial Struct (please put this at the bottom)
@@ -55,3 +56,7 @@ this is the list of parameters you can use in MV Plugin
 ### Misc
 @parent - This create "@parent" parameters, why it is separate, well you tell me
 @text - creates a "@text" parameter, why it is separate, well you tell me
+
+### MZ Only
+List of snippets code that can only run on MZ
+@target - added @target only works on MZ

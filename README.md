@@ -1,6 +1,6 @@
-# rmmvpluginsnippet README
+# RPG Maker Javascript pluginsnippet README
 
-This is a code Snippet for RPG Maker MV Plugin.
+a code Snippet for RPG Maker MV and MZ Plugin developement.
 
 Official Website: https://mjmcreativeworks.wordpress.com/
 Contacts:
