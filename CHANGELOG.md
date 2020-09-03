@@ -1,6 +1,11 @@
 # Change Log
 
 All notable changes to the "rmjspluginsnippet" extension will be documented in this file.
+## [2.1.0]
+- Added All tags from https://tkool.jp/mz/plugin/make/annotation.html
+- Added More MZ support
+- Added "!rmmzStart" for Initial RPG Maker MZ developement
+
 ## [2.0.0]
 - upgrade to 2.0.0 version in line with the RPG maker MZ release
  - now renamed to RPGMaker Javascript plugin snippet

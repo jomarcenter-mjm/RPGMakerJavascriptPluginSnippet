@@ -12,6 +12,22 @@
         ],
         "description": "creates the initial set of information and functions"
     },
+    "MZ Initial plugin set": {
+        "prefix": "!rmmzStart",
+        "body": [
+            "$BLOCK_COMMENT_START:",
+            " * @target MZ",
+            " * @plugindesc ${1:Description}",
+            " * @author ${2:Author}",
+            " * ",
+            " * @help",
+            " * ",
+            " * ",
+            " * @url",
+            " $BLOCK_COMMENT_END"
+        ],
+        "description": "[MZ ONLY] creates the initial set of information and functions"
+    },
     "Include MZ": {
         "prefix" : "@target",
         "body" : [
@@ -365,5 +381,59 @@
             "* @default ${4:Default}"
         ],
         "description": "creates a blank fuction"
+    }
+    ,
+    "MZcommands": {
+        "prefix": "@command",
+        "body": [
+            "@command ${1:COMMAND}",
+            "* @desc ${2:Description}",
+            "* @type ${3:Type}",
+            "* @default ${4:Default}"
+        ],
+        "description": "[MZ ONLY] creates a command"
+    }
+    ,
+    "MZargs": {
+        "prefix": "@arg",
+        "body": [
+            "@arg ${1:arg1}",
+            "* @desc ${2:Description}"
+        ],
+        "description": "[MZ ONLY] creates a args block"
+    }
+    ,
+    "MZbasedependency": {
+        "prefix": "@base",
+        "body": [
+            "@base ${1:dependency}"
+        ],
+        "description": "[MZ ONLY] creates a base dependency"
+    }
+    ,
+    "MZbeforeafterdependency": {
+        "prefix": "@order",
+        "body": [
+            "@orderBefore ${1:dependency}",
+            "* @orderAfter ${1:dependency}"
+        ],
+        "description": "[MZ ONLY] creates a base dependency"
+    },
+    "MZrequireAssets": {
+        "prefix": "@requiredAssets",
+        "body": [
+            "@requiredAssets ${1:File}"
+        ],
+        "description": "[MZ ONLY] creates a requireasset file"
+    },
+    "MZnoteParam": {
+        "prefix": "@noteParam",
+        "body": [
+            "@noteParam ${1:noteparameter}",
+            "* @noteDir ${1:Folderlocation}",
+            "* @noteType ${1:Filetype}",
+            "* @noteData ${1:Datatype}"
+        ],
+        "description": "[MZ ONLY] creates a note parameter block"
     }
 }

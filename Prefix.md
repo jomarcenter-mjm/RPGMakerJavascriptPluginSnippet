@@ -59,4 +59,11 @@ this is the list of parameters you can use in MV Plugin
 
 ### MZ Only
 List of snippets code that can only run on MZ
+!rmmzStart - Similar to !rmmvStart This create the body of the plugin
 @target - added @target only works on MZ
+@requiredAssets - include a file when working on project
+@command - (NEED PROPER DOCUMENTATION)
+@noteParam - (NEED PROPER DOCUMENTATION)
+@arg - (NEED PROPER DOCUMENTATION)
+@base - add a require dependency
+@order - add a orderbefore and after block
