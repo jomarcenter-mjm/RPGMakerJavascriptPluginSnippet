@@ -415,7 +415,7 @@
         "prefix": "@order",
         "body": [
             "@orderBefore ${1:dependency}",
-            "* @orderAfter ${1:dependency}"
+            "* @orderAfter ${2:dependency}"
         ],
         "description": "[MZ ONLY] creates a base dependency"
     },
@@ -430,9 +430,9 @@
         "prefix": "@noteParam",
         "body": [
             "@noteParam ${1:noteparameter}",
-            "* @noteDir ${1:Folderlocation}",
-            "* @noteType ${1:Filetype}",
-            "* @noteData ${1:Datatype}"
+            "* @noteDir ${2:Folderlocation}",
+            "* @noteType ${3:Filetype}",
+            "* @noteData ${4:Datatype}"
         ],
         "description": "[MZ ONLY] creates a note parameter block"
     }

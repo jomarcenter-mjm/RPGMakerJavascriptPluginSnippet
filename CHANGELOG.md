@@ -1,6 +1,10 @@
 # Change Log
 
 All notable changes to the "rmjspluginsnippet" extension will be documented in this file.
+
+## [2.1.1]
+- Minor fix
+
 ## [2.1.0]
 - Added All tags from https://tkool.jp/mz/plugin/make/annotation.html
 - Added More MZ support
