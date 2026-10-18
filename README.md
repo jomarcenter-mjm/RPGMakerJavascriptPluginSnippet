@@ -41,6 +41,9 @@ Support me on Ko-Fi
 ### other samples
 ![other Example](img/Plugin%20Manager%20Parameter.gif)
 
+## NO-AI WARNING
+This project does not accept contributions or bug reports made by AI coding agents or LLMs.
+
 ## License
 
 Copyright 2019 MJM Creative Works and Ideas
